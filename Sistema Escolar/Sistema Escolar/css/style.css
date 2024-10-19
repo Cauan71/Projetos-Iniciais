@@ -1,0 +1,55 @@
+body{
+    background:url(../imagens/fundo.jpg);
+    background-size: cover; /*Ajusta imagem de acordo com a tela*/
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center; /*Vertical*/
+    align-items: center; /*Horizontal*/
+    height: 100vh;
+}
+
+.central{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.735);
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    box-shadow: 5px 5px 10px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.central input{
+    height: 20px;
+    background-color: rgb(168, 168, 168);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    
+}
+
+.central input:focus{
+    background-color: #1173db;
+}
+
+.central button{
+    background-color: #1d8affe7;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    
+
+}
