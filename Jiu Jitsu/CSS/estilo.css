@@ -1,0 +1,48 @@
+/*o Body sempre será no ínicio*/
+body{
+    background: linear-gradient(white,#096f81 , gray );
+}
+
+
+h1{
+    font-size: 75px; /*Tamanho da Fonte */
+    font-family: Arial, Helvetica, sans-serif; /* Estilo de Fonte*/
+    text-align: center; /* Centralizar título */
+
+
+
+    color: #081c8a; /* Definir cor do texto */
+    
+}
+hr{
+    width: 50% ;
+    height: 10px;
+    background: #081c8a;
+
+
+}
+
+p{
+    width: 50%;
+    margin: auto;
+    text-align: justify;
+    
+
+}
+
+img{
+    height: 200px;
+}
+/* # e . */
+#caixa{
+    width: fit-content;
+    margin: auto;
+}
+
+.Jitsu{
+    height: 200px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+
+}
