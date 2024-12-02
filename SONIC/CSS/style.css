@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    background: url('/IMG/background-sonic.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.sonic{
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 610px;
+    animation: movimento 3s infinite;
+}
+
+@keyframes movimento {
+    0%{
+        left: 0;
+        top: 610px;
+        scale: 100%;
+        filter: opacity(100%);
+    }
+
+    50%{
+        filter: opacity(100%);
+    }
+
+    100%{
+        left: 1590px;
+        top: 610px;
+        scale: 100%;
+        filter: opacity(0%);
+    }
+
+}
